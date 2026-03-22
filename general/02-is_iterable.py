@@ -19,7 +19,7 @@ def is_iterable(obj):
         return False
 
 
-# unit test
-print(is_iterable(range(5)))  # True
-print(is_iterable("klsdf"))  # True
-print(is_iterable(34))  # False
+if __name__ == "__main__":
+    print(is_iterable(range(5)))  # True
+    print(is_iterable("klsdf"))  # True
+    print(is_iterable(34))  # False
